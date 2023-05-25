@@ -1,7 +1,11 @@
 "use client";
 import { useState } from "react";
 
-const Menu = ({ sheets }) => {
+type Props = {
+  sheets: any[];
+};
+
+const Menu = ({ sheets }: Props) => {
   const [modal, setModal] = useState(false);
   const toggle = () => setModal((v) => !v);
 
