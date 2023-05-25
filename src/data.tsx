@@ -78,7 +78,7 @@ export default [
     sections: [
       {
         title: "v60 - JAPÓN 2004",
-        image: "https://placehold.it/120",
+        image: { src: "https://placehold.it/120", alt: "v60 - JAPÓN 2004" },
         items: [
           {
             title: (
@@ -102,7 +102,7 @@ export default [
       },
       {
         title: "v60 - JAPÓN 2004",
-        image: "https://placehold.it/120",
+        image: { src: "https://placehold.it/120", alt: "v60 - JAPÓN 2004" },
         items: [
           {
             title: (
