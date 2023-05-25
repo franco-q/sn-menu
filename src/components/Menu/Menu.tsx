@@ -11,7 +11,7 @@ const Menu = ({ sheets }: Props) => {
 
   return (
     <>
-      <div className="fixed bottom-5 right-5 z-[9999]">
+      <div className="fixed bottom-4 right-5 z-[9999]">
         <button
           onClick={toggle}
           className="btn btn-circle swap swap-rotate ms-auto"
@@ -41,12 +41,12 @@ const Menu = ({ sheets }: Props) => {
           modal ? "modal-open" : ""
         } modal modal-bottom sm:modal-middle`}
       >
-        <div className="modal-box bg-slate-900">
+        <div className="modal-box bg-slate-900 pb-16 pt-10 sm:pb-10">
           {sheets.map((sheet) => (
             <div key={sheet.id}>
               <a
                 href={"#" + sheet.id}
-                className="py-4 mb-3 font-mono text-3xl font-[900]"
+                className="font-mono text-3xl font-[900] block"
                 onClick={toggle}
               >
                 {sheet.title}

@@ -51,6 +51,58 @@ export default [
             value: 1200,
           },
           {
+            title: "Americano",
+            value: 1350,
+          },
+          {
+            title: "Cortado",
+            value: 1200,
+          },
+          {
+            title: "Americano",
+            value: 1350,
+          },
+          {
+            title: "Cortado",
+            value: 1200,
+          },
+          {
+            title: "Ristretto",
+            value: 1200,
+          },
+          {
+            title: "Americano",
+            value: 1350,
+          },
+          {
+            title: "Cortado",
+            value: 1200,
+          },
+          {
+            title: "Ristretto",
+            value: 1200,
+          },
+          {
+            title: "Americano",
+            value: 1350,
+          },
+          {
+            title: "Cortado",
+            value: 1200,
+          },
+          {
+            title: "Ristretto",
+            value: 1200,
+          },
+          {
+            title: "Americano",
+            value: 1350,
+          },
+          {
+            title: "Cortado",
+            value: 1200,
+          },
+          {
             title: "Ristretto",
             value: 1200,
           },
